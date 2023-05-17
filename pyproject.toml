@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ansible-deploy-project-76"
+version = "0.1.0"
+description = ""
+authors = ["Nazar Annakhalov <nazar.annahalov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "ansible_deploy_project_76"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
